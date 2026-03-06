@@ -40,6 +40,9 @@ export default defineConfig({
 });
 ```
 
+### Problèmes de permissions
+Il y a des chances que vous ayez des problèmes de permissions lorsque vous manipulez les fichiers frontend. Si c'est le cas, faites simplement un `chmod -R 777 .`.
+
 ## Installation du backend
 
 Si vous avez déjà commencés à travailler sur votre backend, déplacez votre code dans un dossier `backend` à la racine de ce repository, en supprimant s'ils sont présents le fichier `docker-compose.yml` et le dossier `docker/`, afin qu'ils ne perturbent pas le nouvel environnement Docker.
