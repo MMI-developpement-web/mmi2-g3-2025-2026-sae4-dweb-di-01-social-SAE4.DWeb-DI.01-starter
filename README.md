@@ -41,7 +41,7 @@ export default defineConfig({
 ```
 
 ### Problèmes de permissions
-Il y a des chances que vous ayez des problèmes de permissions lorsque vous manipulez les fichiers frontend. Si c'est le cas, faites simplement un `chmod -R 777 .`.
+Il y a des chances que vous ayez des problèmes de permissions lorsque vous manipulez les fichiers frontend. Si c'est le cas, faites simplement un `sudo chmod -R 777 .`
 
 ## Installation du backend
 
